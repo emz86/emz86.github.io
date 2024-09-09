@@ -9,7 +9,7 @@ body{
    margin: 0px;
    padding: 8px;
    font-family: "Fredoka One", sans-serif;
-   width: 16%;
+   width: 30%;
    text-shadow: 
         -1px -1px 0 black,  /* Top-left shadow */
         1px -1px 0 black,   /* Top-right shadow */
@@ -23,7 +23,7 @@ ul{
 
 
 body>header{
-   background-color: orange;
+   background-color: rgb(247, 0, 255);
    color: white;
 }
 
@@ -72,7 +72,7 @@ body> main article{
 }
 
 #main-content>div{
-   width: 70%;
+   width: 80%;
 }
 
 form{
@@ -84,7 +84,7 @@ h2{
 }
 
 body>footer{
-   background-color: orange;
+   background-color: rgb(247, 0, 255);
    display: flex;
 }
 
@@ -99,10 +99,20 @@ img{
 }
 
 #footer-ul>div>li{
-   margin-left: 12px;
+   margin-left: 20px;
 }
 
 #footer-ul>div>li>a{
    color: white;
    text-decoration: none;
+}
+
+#li-1{
+   display: list-item;
+   unicode-bidi: isolate;
+   text-indent: 0;
+   text-align: start;
+   text-align-last: start;
+   text-align: -webkit-match-parent;
+   text-transform: none;
 }
