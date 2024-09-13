@@ -23,7 +23,7 @@ ul{
 
 
 body>header{
-   background-color: rgb(247, 0, 255);
+   background-color: rgb(242, 120, 247);
    color: white;
 }
 
@@ -84,7 +84,7 @@ h2{
 }
 
 body>footer{
-   background-color: rgb(247, 0, 255);
+   background-color: rgb(242, 120, 247);
    display: flex;
 }
 
